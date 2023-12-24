@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing:border-box;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;;
     }
     header {
       display: flex;
@@ -15,7 +15,6 @@
 
       li, a, button {
          font-family: 'Montserrat';
-         font-weight: 500;
          font-size: 16px;
          color: whitesmoke;
          text-decoration: none;     
@@ -23,10 +22,11 @@
      .logo img{
          width: 150px;
          height: 150px;
-         margin-left: 0;
-         margin-right: 100px;
-         opacity: 100%;
+         /* margin-left: 0; */
+         /* margin-right: 100px; */
+
          padding-top: 2%;
+         display: inline;
      }
      .navi_menu{
          list-style: none;
@@ -372,15 +372,15 @@
       width: 100%;
       height: auto;
       align-items: center;
-      margin-top: 20%;
+      margin-top: 15%;
    }
    .depmapbox h2 {
       margin-bottom: 30px;
       font-size: 30px;
    }
    .depmapbox iframe{
-      width: 50%;
-      height: 500px;
+      width: 40%;
+      height: 400px;
 
    }
 
