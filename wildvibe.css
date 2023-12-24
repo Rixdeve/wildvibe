@@ -34,11 +34,11 @@
          padding-top: 0%;
 
      }
-     .navi_menu li a {
+     .navi_menu li {
         transition: all 0.3s ease 0s;
      }
-     .navi_menu li a:hover{
-         color: lightblue;
+     .navi_menu li :hover{
+         color: rgb(231, 241, 230);
      }
      .navi_menu li {
         display: inline-block;
@@ -157,10 +157,9 @@
       color: rgb(0, 0, 0);
       font-size: 25px;
       flex-direction: column;
-      text-align: justify;
-      display: flex;
-      justify-content:right;
-      padding: 20px;
+      text-align: left;
+      display: inline;
+      justify-content:left;
       font-family: Arial, Helvetica, sans-serif;
       }
 
@@ -335,6 +334,7 @@
       align-items: stretch;      
       place-items: center;
       height: 100vh;
+      margin-top: 5%;
     }
       .depgallery{
          flex-wrap: wrap;
@@ -370,8 +370,9 @@
       justify-content: center;
       flex-direction: column;
       width: 100%;
-      height: 150vh;
+      height: auto;
       align-items: center;
+      margin-top: 20%;
    }
    .depmapbox h2 {
       margin-bottom: 30px;
@@ -392,30 +393,37 @@
      }
     footer{
      text-align: center;
-     color: white;
-     bottom: 0;
-     display: flex;
+     bottom: 0%;
      background: linear-gradient(90deg, rgb(118, 135, 120) 0%, rgb(76, 86, 79) 0%, rgba(99, 101, 99, 0.928) 0%);
-     align-items: center;
-     padding: 30px 10%;
      width: 100%;
-     height: 250px;
+     box-sizing: border-box;
+
+
      }
      .footmenu {
          display: inline;
-         list-style: none;
-         color: rgb(9, 12, 15);
-         font-weight: 10px;
-         margin-left: 25%;
-         /* font-size: 0.0px; */
-         width: 100%;
-         height: 100px;
+         margin:30px 0px;
+     }
+     .footmenu ul {
+         display: flex;
+         justify-content: center;
+     } 
+     .footmenu ul li a{
+      color: rgb(255, 255, 255);
+      margin: 25px;
+      text-decoration: none;
+      /* font-size: 2px; */
+
+     }
+     .footmenu ul li :hover{
+      transition: 0s ease 0s;
+      text-decoration: underline ;
      }
      .copyright {
-         display: inline;
+         display: flex;
          color: rgb(9, 12, 15);
          font-weight: 10px;
+         justify-content: center;
          /* font-size: 0.0px; */
          width: 100%;
-
      }
