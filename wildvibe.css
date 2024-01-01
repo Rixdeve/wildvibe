@@ -354,15 +354,13 @@
          width: 400px;
          height: 400px;
          object-fit: cover;
-         box-shadow: 0 20px 20px black;
+         box-shadow: 0 15px 15px black;
          transition-timing-function: linear;
          transition-property: box-shadow;
-         transition-duration: 0.5s;
+         transition-duration: 0.3s;
       }      
          .content img:hover {
             box-shadow: 0 30px 30px black;
-            /* filter: blur(3px);  */
-            /* filter: grayscale(90%); */
             opacity: 100;
          }  
    .depmapbox{
