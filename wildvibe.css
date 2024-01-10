@@ -27,6 +27,12 @@
          padding-top: 2%;
          display: inline;
      }
+     .nav_head{
+         width: auto;
+         color: aliceblue;
+         font-family: 'Bradley Hand ITC';
+         margin-right: 19%;
+        }
      .navi_menu{
          list-style: none;
          width: 100%;
@@ -173,14 +179,14 @@
       }
 
    .homeslide{
-      background: url('homesl4.avif')black no-repeat;
+      background: url('homesl7.jpeg');
       margin:0%;
       padding: 0%;
       border: 0%;
       width: 100%;
-      height:870px;
+      height:850px;
       background-position: center;
-      background-size: 100% 100%;
+      background-size: cover;
       background-clip: border-box;
       display: flex;
       background-attachment: fixed;  }
@@ -399,9 +405,10 @@
    .depmapbox h2 {
       margin-bottom: 30px;
       font-size: 30px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
    }
    .depmapbox iframe{
-      width: 40%;
+      width: 85%;
       height: 400px;
 
    }
