@@ -451,6 +451,10 @@
       margin-left: 2.5%;
    }
 
+   .list_home li{
+      color: black;
+   }
+
     footer{
      text-align: center;
      bottom: 0%;
