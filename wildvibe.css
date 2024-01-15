@@ -20,7 +20,7 @@
       }
      .logo img{
          width: 150px;
-         height: 150px;
+         height: 145px;
          /* margin-left: 0; */
          /* margin-right: 100px; */
 
@@ -110,15 +110,12 @@
         display: flex;
         gap: 20px;
         justify-content: center;
-        padding: 5px;
-
     }
     .imagelogo img {
         max-width: 250px; /* Ensure the image doesn't exceed the width of its container */
         height: 250px; /* Maintain the aspect ratio of the image */
         border-radius: 100%;
         border: 2px solid;
-        float: left;
         object-fit: cover;
         margin-right: 20px;
         display: flex;
@@ -129,8 +126,7 @@
         flex-direction: column;
         text-align: center;
         display: flex;
-        /* justify-content:left;  delete*/
-        padding: 10px;
+        padding-left: 10px;
         font-family: 'Matura MT Script Capitals','Bradley Hand ITC', fantasy;
       }
 
@@ -198,6 +194,7 @@
          font-size: 40px;
          cursor: pointer;
          background-attachment: fixed;
+         max-height: 8px;
       }
    .homeslide h2:hover{
          transition: all 0.8s ease 0s;
@@ -214,31 +211,214 @@
       background-size: cover;
       background-clip: border-box;
       display: flex;
-      background-attachment: fixed;  
-   }
+      background-attachment: fixed;  }
+   .leopardslide h1{
+      color: rgb(255, 255, 255);
+      text-align: center;
+      margin-top: 17%;
+      margin-left: 36%;
+      font-family: 'wide latin';
+      font-size: 55px;
+       cursor: pointer;
+      background-attachment: fixed;
+      max-height: 8px;
+         }
    .introslide{
-      background: url('hortainplains2.jpg')black no-repeat;
+      background-color: rgb(252, 252, 252);
+      /* background: url('hortainplains2.jpg')black no-repeat; */
+      margin:0%;
+      padding: 0%;
+      border: 0%;
+      width: 100%;
+      height:610px;
+      background-position: center;
+      background-size: cover;
+      background-clip: border-box;
+      display: flex;
+      background-attachment: fixed;
+
+}
+   .introslide h1{
+      color: rgb(40, 41, 41);
+      text-align: center;
+      margin-top: 12%;
+      margin-left: 23%;
+      font-family: 'segeo ui black','salsa';  
+      font-size: 80px;
+      cursor: pointer;
+      max-height: 8px;
+   
+   }
+   .maduruoyaslide{
+      background-color: rgb(252, 252, 252);
+      /* background: url('hortainplains2.jpg')black no-repeat; */
+      margin:0%;
+      padding: 0%;
+      border: 0%;
+      width: 100%;
+      height:610px;
+      background-position: center;
+      background-size: cover;
+      background-clip: border-box;
+      display: flex;
+      background-attachment: fixed;
+
+}
+
+   .maduruoyaslide h1{
+      color: rgb(40, 41, 41);
+      text-align: center;
+      margin-top: 12%;
+      margin-left: 23%;
+      font-family: 'segeo ui black','salsa';  
+      font-size: 80px;
+      cursor: pointer;
+      max-height: 8px;
+      
+      }
+
+   .wasgamuwaslide{
+      background-color: rgb(252, 252, 252);
+      /* background: url('hortainplains2.jpg')black no-repeat; */
+      margin:0%;
+      padding: 0%;
+      border: 0%;
+      width: 100%;
+      height:610px;
+      background-position: center;
+      background-size: cover;
+      background-clip: border-box;
+      display: flex;
+      background-attachment: fixed;
+   
+   }
+   
+   .wasgamuwaslide h1{
+      color: rgb(40, 41, 41);
+      text-align: center;
+      margin-top: 12%;
+      margin-left: 23%;
+      font-family: 'segeo ui black','salsa';  
+      font-size: 80px;
+      cursor: pointer;
+      max-height: 8px;
+         
+         }
+   .udawalawaslide{
+      background-color: rgb(252, 252, 252);
+      /* background: url('hortainplains2.jpg')black no-repeat; */
+      margin:0%;
+      padding: 0%;
+      border: 0%;
+      width: 100%;
+      height:610px;
+      background-position: center;
+      background-size: cover;
+      background-clip: border-box;
+      display: flex;
+      background-attachment: fixed;
+         
+         }
+         
+   .udawalawaslide h1{
+      color: rgb(40, 41, 41);
+      text-align: center;
+      margin-top: 12%;
+      margin-left: 23%;
+      font-family: 'segeo ui black','salsa';  
+      font-size: 80px;
+      cursor: pointer;
+      max-height: 8px;
+               
+     }
+      
+   .hortainplainsslide{
+      background-color: rgb(252, 252, 252);
+      /* background: url('hortainplains2.jpg')black no-repeat; */
+      margin:0%;
+      padding: 0%;
+      border: 0%;
+      width: 100%;
+      height:610px;
+      background-position: center;
+      background-size: cover;
+      background-clip: border-box;
+      display: flex;
+      background-attachment: fixed;
+         
+         }
+         
+   .hortainplainsslide h1{
+      color: rgb(40, 41, 41);
+      text-align: center;
+      margin-top: 12%;
+      margin-left: 23%;
+      font-family: 'segeo ui black','salsa';  
+      font-size: 80px;
+      cursor: pointer;
+      max-height: 8px;
+               
+     }
+
+   .animalslide{
+      background: url('homeslide.jpg');/*black no-repeat; */
       margin:0%;
       padding: 0%;
       border: 0%;
       width: 100%;
       height:750px;
       background-position: center;
-      background-size: 100% 100%;
+      background-size: cover;
       background-clip: border-box;
       display: flex;
       background-attachment: fixed;  }
-   .intropagetext{
-      color: black;
-      font-size: 22px;
-      flex-direction: row;
-      text-align: center;
-      display: flex;
-      justify-content:center;
-      padding: 13px;
 
-      font-family: Arial, Helvetica, sans-serif;
-   }
+   .yalaslide{
+      background: url('yala7.jpg');
+      margin:0%;
+      padding: 0%;
+      border: 0%;
+      width: 100%;
+      height:850px;
+      background-position: center;
+      background-size: cover;
+      background-clip: border-box;
+      display: flex;
+      background-attachment: fixed;  }
+
+   .yalaslide h2{
+      color: aliceblue;
+      text-align: center;
+      margin-top: 20%;
+      margin-left: 40%;
+      font-family: 'wide latin';
+      font-size: 40px;
+      cursor: pointer;
+      background-attachment: fixed;
+      }
+   .wilpattuslide{
+      background: url('wilpattuwahome.jpg');
+      margin:0%;
+      padding: 0%;
+      border: 0%;
+      width: 100%;
+      height:700px;
+      background-position: center;
+      background-size: cover;
+      background-clip: border-box;
+      display: flex;
+      background-attachment: fixed;  }
+   
+   .wipattuslide h2{
+      color: aliceblue;
+      text-align: center;
+      margin-top: 20%;
+      margin-left: 40%;
+      font-family: 'wide latin';
+      font-size: 40px;
+      cursor: pointer;
+      background-attachment: fixed;
+      }
    
 
    .oceanhead h2{
@@ -260,7 +440,7 @@
 
    .oceanpara p{
       color: black;
-      font-size: 22px;
+      font-size: 18px;
       flex-direction: column;
       text-align: left;
       display: flex;
@@ -269,11 +449,11 @@
       font-family: Arial, Helvetica, sans-serif;
    }
    .oceanimage img{
-      max-width: 350px; /* Ensure the image doesn't exceed the width of its container */
+      max-width: 400px; /* Ensure the image doesn't exceed the width of its container */
       height: 300px; /* Maintain the aspect ratio of the image */
       float: right;
       object-fit: cover;
-      border-radius: 20%;
+      border-radius: 15%;
       margin-right: 20px;
       flex-direction: column;
       display: flex;
@@ -292,7 +472,7 @@
 
    .birdpara p{
       color: black;
-      font-size: 22px;
+      font-size: 18px;
       flex-direction: column;
       text-align: left;
       display: flex;
@@ -301,11 +481,11 @@
       font-family: Arial, Helvetica, sans-serif;
    }
    .birdimage img{
-      max-width: 350px; /* Ensure the image doesn't exceed the width of its container */
+      max-width: 400px; /* Ensure the image doesn't exceed the width of its container */
       height: 300px; /* Maintain the aspect ratio of the image */
       float: left;
       object-fit: cover;
-      border-radius: 20%;
+      border-radius: 15%;
       margin-right: 20px;
       flex-direction: column;
       display: flex;
@@ -330,7 +510,7 @@
    }
    .safaripara p{
       color: black;
-      font-size: 22px;
+      font-size: 18px;
       text-align: left;
       display: flex;
       justify-content:left;
@@ -338,11 +518,11 @@
       font-family: Arial, Helvetica, sans-serif;
    }
    .safariimage img{
-      max-width: 350px; /* Ensure the image doesn't exceed the width of its container */
+      max-width: 400px; /* Ensure the image doesn't exceed the width of its container */
       height: 300px; /* Maintain the aspect ratio of the image */
       float: right;
       object-fit: cover;
-      border-radius: 20%;
+      border-radius: 15%;
       margin-right: 20px;
       display: flex;
    }   
@@ -391,6 +571,9 @@
       height: 100vh;
       margin-top: 5%;
     }
+   .depcontainer2 p{
+      color: black;
+   }
       .depgallery{
          flex-wrap: wrap;
          display: flex;
@@ -437,11 +620,30 @@
       height: 400px;
 
    }
+   .madurumap iframe{
+      width: 100%;
+      height: 400px;
+      border-radius: 2%;
+   }
 
-    p{
-     font-size: 20px;
-     text-align: center;
-    }
+
+   .wasgamuwamap iframe{
+      width: 100%;
+      height: 400px;
+      border-radius: 2%;
+   }
+   
+   .udawalawamap iframe{
+      width: 100%;
+      height: 400px;
+      border-radius: 2%;
+   }
+
+   .hortainplainsmap iframe{
+      width: 100%;
+      height: 400px;
+      border-radius: 2%;
+   }   
      h2{
      text-align: center;
      }
@@ -476,12 +678,773 @@
       font-family: 'Berlin Sans FB Demi', 'Stencil';
 
    }
+
+   .maduruoyahead h1{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+   }
+   .maduruoyacont{
+      
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   .maduruoyapara p{
+      color: black;
+      font-size: 14px;
+      flex-direction: column;
+      text-align: left;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+   }
+   .maduruoyabtn p{
+      color: black;
+      /* padding: 9px 9px 10px 10px; */
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      align-items:start;
+      padding-top: 0%;
+      padding-left:13px;
+      font-size: 18px;
+      max-width: 150px;
+  }
+   .maduruoyabtn p:hover{
+      text-decoration:underline;
+   }
+   .maduruoyabtn p:active{
+      scale: 0.95;
+   }
+   .maduruoyaimage img{
+      max-width: 450px; /* Ensure the image doesn't exceed the width of its container */
+      height: 370px; /* Maintain the aspect ratio of the image */
+      float: right;
+      object-fit: cover;
+      border-radius: 5%;
+      margin-right: 20px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;
+   }
+   .wasgamuwahead h1{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+   }
+   .wasgamuwacont{
+      
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   .wasgamuwapara p{
+      color: black;
+      font-size: 14px;
+      flex-direction: column;
+      text-align: left;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+   }
+   .wasgamuwabtn p{
+      color: black;
+      /* padding: 9px 9px 10px 10px; */
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      align-items:start;
+      padding-top: 0%;
+      padding-left: 13px;
+      font-size: 18px;
+      max-width: 150px;
+  }
+   .wasgamuwabtn p:hover{
+      text-decoration:underline;
+   }
+   .wasgamuwabtn p:active{
+      scale: 0.95;
+   }
+   .wasgamuwaimage img{
+      max-width: 450px; /* Ensure the image doesn't exceed the width of its container */
+      height: 370px; /* Maintain the aspect ratio of the image */
+      float: right;
+      object-fit: cover;
+      border-radius: 5%;
+      margin-right: 20px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;
+   }
+   .udawalawahead h1{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+   }
+   .udawalawacont{
+      
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   .udawalawapara p{
+      color: black;
+      font-size: 14px;
+      flex-direction: column;
+      text-align: left;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+   }
+   .udawalawabtn p{
+      color: black;
+      /* padding: 9px 9px 10px 10px; */
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      align-items:start;
+      padding-top: 0%;
+      padding-left: 13px;
+      font-size: 18px;
+      max-width: 150px;
+  }
+   .udawalawabtn p:hover{
+      text-decoration:underline;
+   }
+   .wasgamuwabtn p:active{
+      scale: 0.95;
+   }
+   .udawalawaimage img{
+      max-width: 450px; /* Ensure the image doesn't exceed the width of its container */
+      height: 370px; /* Maintain the aspect ratio of the image */
+      float: right;
+      object-fit: cover;
+      border-radius: 5%;
+      margin-right: 20px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;
+   }
+
+   .hortainplainshead h1{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+   }
+   .hortainplainscont{
+      
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   .hortainplainspara p{
+      color: black;
+      font-size: 14px;
+      flex-direction: column;
+      text-align: left;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+   }
+   .hortainplainsbtn p{
+      color: black;
+      /* padding: 9px 9px 10px 10px; */
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      align-items:start;
+      padding-top: 0%;
+      padding-left: 13px;
+      font-size: 18px;
+      max-width: 150px;
+  }
+   .hortainplainsbtn p:hover{
+      text-decoration:underline;
+   }
+   .hortainplainsbtn p:active{
+      scale: 0.95;
+   }
+   .hortainplainsimage img{
+      max-width: 450px; /* Ensure the image doesn't exceed the width of its container */
+      height: 370px; /* Maintain the aspect ratio of the image */
+      float: right;
+      object-fit: cover;
+      border-radius: 5%;
+      margin-right: 20px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;
+   }
+   .maduruoya_more_para p{
+      color: black;
+      font-size: 15px;
+      text-align: justify;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 2.5%;
+      padding-right: 2.5%;
+   }
+   .maduruoya_more_head h2{
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      display: flex;
+      justify-content:center;
+      font-family: 'Salsa';
+      text-decoration: underline;
+   }
+
+
+   .maduruoya_more_image img{
+      object-fit: cover;
+      width: 800px;
+      display: flex;
+      margin-top: 10px;
+      justify-content: right;
+      float: right;
+      padding-left: 1%;
+      
+   }
+
+   .wasgamuwa_more_para p{
+      color: black;
+      font-size: 15px;
+      text-align: justify;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 2.5%;
+      padding-right: 2.5%;
+   }
+   .wasgamuwa_more_head h2{
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      display: flex;
+      justify-content:center;
+      font-family: 'Salsa';
+      text-decoration: underline;
+   }
+
+
+   .wasgamuwa_more_image img{
+      object-fit: cover;
+      width: 800px;
+      display: flex;
+      margin-top: 10px;
+      justify-content: right;
+      float: right;
+      padding-left: 1%;
+   }
+
+   .udawalawa_more_para p{
+      color: black;
+      font-size: 15px;
+      text-align: justify;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 2.5%;
+      padding-right: 2.5%;
+   }
+   .udawalawa_more_head h2{
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      display: flex;
+      justify-content:center;
+      font-family: 'Salsa';
+      text-decoration: underline;
+   }
+
+
+   .udawalawa_more_image img{
+      object-fit: cover;
+      width: 800px;
+      display: flex;
+      margin-top: 10px;
+      justify-content: right;
+      float: right;
+      padding-left: 1%;
+   }   
+
+   .hortainplains_more_para p{
+      color: black;
+      font-size: 15px;
+      text-align: justify;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 2.5%;
+      padding-right: 2.5%;
+   }
+   .hortainplains_more_head h2{
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      display: flex;
+      justify-content:center;
+      font-family: 'Salsa';
+      text-decoration: underline;
+   }
+
+
+   .hortainplains_more_image img{
+      object-fit: cover;
+      width: 800px;
+      display: flex;
+      margin-top: 10px;
+      justify-content: right;
+      float: right;
+      padding-left: 1%;
+   }   
+   #maduruoya{
+      border: 2px dotted black;
+      border-radius: 2%;
+   }
+   #wasgamuwa{
+      border: 2px dotted black;
+      border-radius: 2%;}
+
+   #udawalawa{
+      border: 2px dotted black;
+      border-radius: 2%; 
+   }
+   
+   #hortainplains{
+      border: 2px dotted black;
+      border-radius: 2%;}
+
    .list_home li{
       color: black;
       margin-left: 10%;
    }
 
-    footer{
+   .leopardsmain h1{
+      font-size: 40px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Salsa';
+      text-decoration: underline;}
+
+   .leopardthreats_main h2{
+      font-size: 40px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Salsa';
+      text-decoration:underline;}
+
+   .leopard_conservation_head h2{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+   }
+   .leopard_conservation{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   .leopard_p p{
+      color: black;
+      font-size: 17px;
+      flex-direction: column;
+      text-align: left;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+   }
+
+ 
+   .leopard_conservation_image img{
+      max-width: 400px; /* Ensure the image doesn't exceed the width of its container */
+      height: 320px; /* Maintain the aspect ratio of the image */
+      float: right;
+      object-fit: cover;
+      border-radius: 5%;
+      margin-right: 20px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;}
+
+
+   .leop_udawa_head h2{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+      }
+   .leop_udawa{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      }
+   
+   .leop_udawa_p p{
+      color: black;
+      font-size: 17px;
+      flex-direction: column;
+      text-align: left;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+       font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+      }
+   
+    
+   .leop_udawa_image img{
+      max-width: 400px; /* Ensure the image doesn't exceed the width of its container */
+      height: 320px; /* Maintain the aspect ratio of the image */
+      float: right;
+      object-fit: cover;
+      border-radius: 5%;
+      margin-right: 20px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;}
+
+      .leop_udawa_head h2{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+      }
+   .leop_udawa{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      }
+   
+   .leop_udawa_p p{
+      color: black;
+      font-size: 17px;
+      flex-direction: column;
+      text-align: left;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+      }
+   
+    
+   .leop_udawa_image img{
+      max-width: 400px; /* Ensure the image doesn't exceed the width of its container */
+      height: 320px; /* Maintain the aspect ratio of the image */
+      float: right;
+      object-fit: cover;
+      border-radius: 5%;
+      margin-right: 20px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;}
+
+   .leop_hortain_head h2{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+         }
+   .leop_hortain{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      }
+      
+   .leop_hortain_p p{
+      color: black;
+      font-size: 17px;
+      flex-direction: column;
+      text-align: left;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+         }
+      
+       
+   .leop_hortain_image img{
+      max-width: 400px; /* Ensure the image doesn't exceed the width of its container */
+      height: 320px; /* Maintain the aspect ratio of the image */
+      float: right;
+      object-fit: cover;
+      border-radius: 5%;
+      margin-right: 20px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;}
+
+
+   .leop_knuckles_head h2{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+         }
+   .leop_knuckles{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      }
+         
+   .leop_knuckles_p p{
+      color: black;
+      font-size: 17px;
+      flex-direction: column;
+      text-align: left;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+       }
+         
+          
+   .leop_knuckles_image img{
+      max-width: 400px; /* Ensure the image doesn't exceed the width of its container */
+      height: 320px; /* Maintain the aspect ratio of the image */
+      float: right;
+      object-fit: cover;
+      border-radius: 5%;
+      margin-right: 20px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;}
+
+
+   #deforest_leop{
+      border: 2px dotted black;
+      border-radius: 0%; 
+   }   
+
+   .deforest_head h2{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+         }
+
+   .deforest_p p{
+      color: black;
+      font-size: 17px;
+      text-align: justify;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+       }
+
+
+   .deforest_conseq_head h2{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+        }
+   
+   .deforest_conseq_para p{
+      color: black;
+      font-size: 17px;
+      text-align: justify;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+         } 
+
+   .deforest_image{
+      max-width: 450px; /* Ensure the image doesn't exceed the width of its container */
+      height: auto; /* Maintain the aspect ratio of the image */
+      object-fit: cover;
+      margin-left: 13px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;   
+      float: right;
+    }  
+
+
+   .deforest_mecha_head h3{
+      font-size: 22px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:left;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi',sans-serif;
+      text-decoration: underline;
+   }
+   .deforest_mecha_list ol li{
+      color: black;
+      font-size: 17px;
+      justify-content:left;
+      margin-left: 70px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+   }
+   #conflict_leop{
+      border: 2px dotted black;
+      border-radius: 0%; 
+   }
+   .conflict_head h2{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+         }
+
+   .conflict_p p{
+      color: black;
+      font-size: 17px;
+      text-align: justify;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+       }
+
+
+   .conflict_conseq_head h2{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+        }
+   
+   .conflict_conseq_para p{
+      color: black;
+      font-size: 17px;
+      text-align: justify;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+         } 
+
+   .conflict_image{
+      max-width: 450px; /* Ensure the image doesn't exceed the width of its container */
+      height: auto; /* Maintain the aspect ratio of the image */
+      object-fit: cover;
+      margin-left: 13px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;   
+      float: right;
+    }  
+
+
+   .conflict_mecha_head h3{
+      font-size: 22px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:left;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi',sans-serif;
+      text-decoration: underline;
+   }
+   .conflict_mecha_list ol li{
+      color: black;
+      font-size: 17px;
+      justify-content:left;
+      margin-left: 70px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+   }
+   footer{
      text-align: center;
      bottom: 0%;
      background: linear-gradient(90deg, rgb(118, 135, 120) 0%, rgb(76, 86, 79) 0%, rgba(99, 101, 99, 0.928) 0%);
