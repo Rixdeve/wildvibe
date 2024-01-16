@@ -188,10 +188,10 @@
    .homeslide h2{
          color: aliceblue;
          text-align: center;
-         margin-top: 20%;
-         margin-left: 40%;
-         font-family: 'wide latin';
-         font-size: 40px;
+         margin-top: 17%;
+         margin-left: 38%;
+         font-family: 'segeo ui black';
+         font-size: 90px;
          cursor: pointer;
          background-attachment: fixed;
          max-height: 8px;
@@ -373,6 +373,17 @@
       display: flex;
       background-attachment: fixed;  }
 
+   .animalslide h2{
+      color: rgb(214, 237, 237);
+      text-align: center;
+      margin-top: 12%;
+      margin-left: 12.5%;
+      font-family: 'segeo ui black','salsa';  
+      font-size: 80px;
+      cursor: pointer;
+      max-height: 8px;
+                  
+        }
    .yalaslide{
       background: url('yala7.jpg');
       margin:0%;
@@ -1053,9 +1064,25 @@
       border: 2px dotted black;
       border-radius: 2%;}
 
+
+   .list_head h2{
+      font-size: 25px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+   }
    .list_home li{
       color: black;
-      margin-left: 10%;
+      margin-left: 2%;
+      text-align: left;
+      font-size: 17px;
+   }
+   .list_home ul{
+      margin-left: 3%;
    }
 
    .leopardsmain h1{
@@ -1121,6 +1148,19 @@
       border: 1px outset black;}
 
 
+      #leopardsec{
+         box-shadow: 0 3px 3px 3px black;
+         transition-timing-function: linear;
+         transition-property: box-shadow;
+         transition-duration: 0.3s;
+         border-radius: 2%;
+      }      
+         #leopardsec:hover {
+            box-shadow: 0 22px 22px black;
+            opacity: 100;
+         }  
+      
+      
    .leop_udawa_head h2{
       font-size: 30px;
       color: rgb(0, 0, 0);
@@ -1444,6 +1484,192 @@
       font-family: Arial, Helvetica, sans-serif;
       padding-bottom: 0%;
    }
+
+
+
+   .indi_eleph_head h2{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+   }
+   .eleph_cont{
+      
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   .indi_eleph_para p{
+      color: black;
+      font-size: 15.5px;
+      flex-direction: column;
+      text-align: left;
+      display: flex;
+      justify-content:left;
+      padding: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+   }
+   .indi_eleph_image img{
+      max-width: 500px; /* Ensure the image doesn't exceed the width of its container */
+      height: 400px; /* Maintain the aspect ratio of the image */
+      float: right;
+      object-fit: cover;
+      border-radius: 5%;
+      margin-right: 20px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;
+   }
+   .indi_eleph_head h2{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';
+   }
+   .slothb_cont{
+      
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-top: 30px;
+   }
+
+   .indi_slothb_para p{
+      color: black;
+      font-size: 15.5px;
+      flex-direction: column;
+      text-align: left;
+      display: flex;
+      justify-content:left;
+      margin-left: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 0%;
+   }
+   .indi_slothb_image img{
+      max-width: 500px; /* Ensure the image doesn't exceed the width of its container */
+      height: 400px; /* Maintain the aspect ratio of the image */
+      float: left;
+      object-fit: cover;
+      border-radius: 5%;
+      margin-left: 20px;
+      margin-right: 20px;
+      flex-direction: column;
+      display: flex;
+      border: 1px outset black;
+   }
+
+   .indi_slothb_head h2{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      flex-direction: row;
+      text-align: justify;
+      display: flex;
+      justify-content:center;
+      padding: 10px;
+      font-family: 'Berlin Sans FB Demi', 'Stencil';}
+   
+      .indi_lizard_head h2{
+         font-size: 30px;
+         color: rgb(0, 0, 0);
+         flex-direction: row;
+         text-align: justify;
+         display: flex;
+         justify-content:center;
+         padding: 10px;
+         font-family: 'Berlin Sans FB Demi', 'Stencil';
+      }
+      .lizard_cont{
+         
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         padding-top: 30px;
+      }
+   
+      .indi_lizard_para p{
+         color: black;
+         font-size: 15.5px;
+         flex-direction: column;
+         text-align: left;
+         display: flex;
+         justify-content:left;
+         padding: 13px;
+         font-family: Arial, Helvetica, sans-serif;
+         padding-bottom: 0%;
+      }
+      .indi_lizard_image img{
+         max-width: 500px; /* Ensure the image doesn't exceed the width of its container */
+         height: 400px; /* Maintain the aspect ratio of the image */
+         float: right;
+         object-fit: cover;
+         border-radius: 5%;
+         margin-right: 20px;
+         flex-direction: column;
+         display: flex;
+         border: 1px outset black;
+      }
+      .indi_lizard_head h2{
+         font-size: 30px;
+         color: rgb(0, 0, 0);
+         flex-direction: row;
+         text-align: justify;
+         display: flex;
+         justify-content:center;
+         padding: 10px;
+         font-family: 'Berlin Sans FB Demi', 'Stencil';
+      }
+
+      .monkey_cont{
+      
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         padding-top: 30px;
+      }
+   
+      .indi_monkey_para p{
+         color: black;
+         font-size: 15.5px;
+         flex-direction: column;
+         text-align: left;
+         display: flex;
+         justify-content:left;
+         margin-left: 20px;
+         font-family: Arial, Helvetica, sans-serif;
+         padding-bottom: 0%;
+      }
+      .indi_monkey_image img{
+         max-width: 500px; /* Ensure the image doesn't exceed the width of its container */
+         height: 400px; /* Maintain the aspect ratio of the image */
+         float: left;
+         object-fit: cover;
+         border-radius: 5%;
+         margin-left: 20px;
+         margin-right: 20px;
+         flex-direction: column;
+         display: flex;
+         border: 1px outset black;
+      }
+   
+      .indi_monkey_head h2{
+         font-size: 30px;
+         color: rgb(0, 0, 0);
+         flex-direction: row;
+         text-align: justify;
+         display: flex;
+         justify-content:center;
+         padding: 10px;
+         font-family: 'Berlin Sans FB Demi', 'Stencil';}
    footer{
      text-align: center;
      bottom: 0%;
