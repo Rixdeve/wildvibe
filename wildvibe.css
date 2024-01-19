@@ -561,6 +561,9 @@
    .depimg1 img{
       display: flex;
       flex-direction:column;
+      height: fit-content;
+
+
    }
    .deppara2{
       display: flex;
