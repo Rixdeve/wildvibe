@@ -125,7 +125,7 @@
       padding: 0%;
       border: 0%;
       width: 100%;
-      height: 740px;
+      height: 720px;
       background-position: center;
       background-size: cover;
       background:url('homesl2.jpg') fixed center;
@@ -547,23 +547,43 @@
       font-family: Arial, Helvetica, sans-serif;
    }
 
+
+   .dep_head2 h2{
+      display: flex;
+      flex-direction: row;
+   }
+   .dep_intr{
+      display: flex;
+      flex-direction:row;
+   }
+   .depimg1 img{
+      display: flex;
+      flex-direction:column;
+   }
+   .deppara2{
+      display: flex;
+      flex-direction: column; 
+     }
+
+
    .depcontainer2{
       display: flex;
       flex-wrap: wrap;
-      flex-direction: row;
+      flex-direction: column;
       flex-flow: column wrap;
       align-items: stretch;      
       place-items: center;
-      height: 100vh;
+      height: auto;
       margin-top: 5%;
     }
    .depcontainer2 p{
       color: black;
+      display: flex;
+      flex-direction: row;
    }
       .depgallery{
          flex-wrap: wrap;
          display: flex;
-         flex-direction: row;
          padding: 20px;
          align-items: center;
          /* height: 50vh; */
@@ -572,12 +592,15 @@
       .content{    
          font-size: 30px;
          justify-content: space-between;
+         display: flex;
          padding: 0 20px 20px;
       }
       .content img{
          width: 400px;
          height: 400px;
          object-fit: cover;
+         display: flex;
+         flex-direction: column;
          box-shadow: 0 15px 15px black;
          transition-timing-function: linear;
          transition-property: box-shadow;
@@ -1128,6 +1151,7 @@
    .leopard_conservation{
       width: 100%;
       display: flex;
+      flex-direction: column;
       justify-content: center;
    }
 
@@ -1172,6 +1196,7 @@
    .leop_udawa{
       width: 100%;
       display: flex;
+      flex-direction: row;
       justify-content: center;
       }
    
@@ -1223,6 +1248,7 @@
    .leop_hortain{
       width: 100%;
       display: flex;
+      flex-direction: row;
       justify-content: center;
       }
       
@@ -1264,6 +1290,7 @@
    .leop_knuckles{
       width: 100%;
       display: flex;
+      flex-direction: row;
       justify-content: center;
       }
          
@@ -1287,8 +1314,6 @@
       object-fit: cover;
       border-radius: 5%;
       margin-right: 20px;
-      flex-direction: column;
-      display: flex;
       border: 1px outset black;}
 
 
@@ -1314,6 +1339,7 @@
       text-align: justify;
       display: flex;
       justify-content:left;
+      flex-direction: row;
       padding: 13px;
       font-family: Arial, Helvetica, sans-serif;
       padding-bottom: 0%;
@@ -1336,6 +1362,7 @@
       font-size: 17px;
       text-align: justify;
       display: flex;
+      flex-direction: row;
       justify-content:left;
       padding: 13px;
       font-family: Arial, Helvetica, sans-serif;
@@ -1344,11 +1371,11 @@
 
    .deforest_image{
       max-width: 450px; /* Ensure the image doesn't exceed the width of its container */
-      height: auto; /* Maintain the aspect ratio of the image */
+      height: 200px; /* Maintain the aspect ratio of the image */
       object-fit: cover;
       margin-left: 13px;
-      flex-direction: column;
       display: flex;
+      flex-direction: column;
       border: 1px outset black;   
       float: right;
     }  
@@ -1357,9 +1384,7 @@
    .deforest_mecha_head h3{
       font-size: 22px;
       color: rgb(0, 0, 0);
-      flex-direction: row;
       text-align: justify;
-      display: flex;
       justify-content:left;
       padding: 10px;
       font-family: 'Berlin Sans FB Demi',sans-serif;
@@ -1393,6 +1418,7 @@
       font-size: 17px;
       text-align: justify;
       display: flex;
+      flex-direction: row;
       justify-content:left;
       padding: 13px;
       font-family: Arial, Helvetica, sans-serif;
@@ -1416,6 +1442,7 @@
       font-size: 17px;
       text-align: justify;
       display: flex;
+      flex-direction: row;
       justify-content:left;
       padding: 13px;
       font-family: Arial, Helvetica, sans-serif;
@@ -1440,6 +1467,7 @@
       flex-direction: row;
       text-align: justify;
       display: flex;
+      flex-direction:column;
       justify-content:left;
       padding: 10px;
       font-family: 'Berlin Sans FB Demi',sans-serif;
@@ -1448,12 +1476,14 @@
    .conflict_mecha_list ol li{
       color: black;
       font-size: 17px;
-      justify-content:left;
       margin-left: 70px;
       font-family: Arial, Helvetica, sans-serif;
       padding-bottom: 0%;
    }
-
+   .mechabox{
+      display: flex;
+      flex-direction: column;
+   }
 
 
    .indi_eleph_head h2{
@@ -1470,6 +1500,7 @@
       
       width: 100%;
       display: flex;
+      flex-direction: row;
       justify-content: center;
    }
 
@@ -1495,22 +1526,14 @@
       display: flex;
       border: 1px outset black;
    }
-   .indi_eleph_head h2{
-      font-size: 30px;
-      color: rgb(0, 0, 0);
-      flex-direction: row;
-      text-align: justify;
-      display: flex;
-      justify-content:center;
-      padding: 10px;
-      font-family: 'Berlin Sans FB Demi', 'Stencil';
-   }
+
    .slothb_cont{
       
       width: 100%;
       display: flex;
       justify-content: center;
       padding-top: 30px;
+      flex-direction: row;
    }
 
    .indi_slothb_para p{
@@ -1561,6 +1584,7 @@
          
          width: 100%;
          display: flex;
+         flex-direction: row;
          justify-content: center;
          padding-top: 30px;
       }
@@ -1603,6 +1627,7 @@
          width: 100%;
          display: flex;
          justify-content: center;
+         flex-direction: row;
          padding-top: 30px;
       }
    
@@ -1612,6 +1637,7 @@
          flex-direction: column;
          text-align: left;
          display: flex;
+         flex-direction: column;
          justify-content:left;
          margin-left: 20px;
          font-family: Arial, Helvetica, sans-serif;
@@ -1649,6 +1675,7 @@
      .footmenu {
          display: inline;
          margin:30px 0px;
+
      }
      .footmenu ul {
          display: flex;
@@ -1673,6 +1700,7 @@
          justify-content: center;
          /* font-size: 0.0px; */
          width: 100%;
+         flex-direction: column;
      }
 
 
@@ -1692,7 +1720,7 @@
          display: none;
       }
       .menu {
-         flex: 1;
+         height: max-content;
       text-align: center;      }
       .navi_menu {
          flex-direction: column;
@@ -1729,7 +1757,158 @@
       .hortainplainsslide{
             display: none;
       }
+      .leopardslide{
+         display: none;
+      }
+      .animalslide{
+         height: 600px;
+      }
+      .animalslide{
+         display: flex;
       }
       
+      .footmenu{
+         display: none;
+      }
+      .dep_intr {
+         flex-direction: column;
+         width: 100%;
+         align-items: center;
+      }
+      .depimg1 img{
+         flex-direction: row;
+         display: flex;
+         width: 450px;
+
+      }
+      .deppara2{
+         flex-direction: row;
+         padding-left: 50px;
+         padding-right: 50px;
+      }
+      content img{
+
+         flex-direction: row;
+      }
+      content{
+      flex-direction: row;
+      }
+      .depgallery{flex-direction: column;}
+
+      .deforest_image{
+         display: none;
+      }
+      .conflict_image{
+         display: none;
+      }
+      .leopard_conservation{
+         flex-direction: column;
+         align-items: center;
+      }
+      .leopardsmain h1{
+         flex-direction: row;
+         align-items: center;
+         font-size: 25px;
+
+      }
+      .leop_udawa{
+         flex-direction: column;
+         align-items: center;
+      }
+   .leop_hortain{
+      flex-direction: column;
+      align-items: center;
+   }
+   .leop_knuckles{
+      flex-direction: column;
+      align-items: center;
+   }
+   .leop_hortain_head h2{
+      align-items: center;
+   }
+   #deforest_leop{
+      flex-direction: row;
+      align-items: center;
+   }
+   .deforest_conseq_head{
+      flex-direction: row;
+      padding: 0%;
+      align-items: center;  
+   }
+   .deforest_conseq_para{
+      flex-direction: row;
+
+      align-items: center;
+   }
+   .mechabox {
+      flex-direction: column;
+   }
+   #conflict_leop{
+      flex-direction: row;
+      align-items: center;
+   }
+   .conflict_conseq_head{
+      flex-direction: row;
+      padding: 0%;
+      align-items: center;  
+   }
+   .conflict_conseq_para{
+      flex-direction: row;
+
+      align-items: center;
+   }
+   .deforest_head{
+      flex-direction: row;
+      align-items: center;
+   }
+   .deforest_p {
+      flex-direction: row;
+      align-items: center;
+   }
+   .conflict_head{
+      flex-direction: row;
+      align-items: center;
+   }
+   .conflict_p{
+      flex-direction: row;
+      align-items: center;
+   }
+
+   .indi_eleph_head{
+      flex-direction: row;
+      align-items: center;
+   }
+   .eleph_cont{
+      flex-direction: column;
+      align-items: center;
+   }
+   .indi_sloth_head{
+      flex-direction: row;
+      align-items: center;
+   }
+   .slothb_cont{
+      flex-direction: column;
+      align-items: center;
+   }
+   .indi_lizard_head{
+      flex-direction: row;
+      align-items: center;
+   }
+   .lizard_cont{
+      flex-direction: column;
+      align-items: center;
+   }
+   .monkey_cont{
+      flex-direction: column;
+      align-items: center;
+   }
+   .indi_monkey_head{
+      flex-direction: row;
+      align-items: center;
+   }
+   header{
+      height: max-content;
+   }
+   }
 
       
