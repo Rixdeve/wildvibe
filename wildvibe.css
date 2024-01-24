@@ -68,6 +68,7 @@
          transition: all 0.3s ease 0s;
          align-items: center;
          width: 130px;
+         height: 50px;
      }
          button:hover{
             background-color: darkblue;
@@ -470,6 +471,7 @@
       object-fit: cover;
       border-radius: 15%;
       margin-right: 20px;
+      padding: 13px;
       flex-direction: column;
       display: flex;
    }
@@ -680,6 +682,10 @@
       border-radius: 20%;
       margin-left: 2.5%;
    }
+
+   .morelocations{
+      border-radius: 5%;
+   }
    .morelocations p{
       color: black;
       font-size: 15px;
@@ -758,7 +764,7 @@
       float: right;
       object-fit: cover;
       border-radius: 5%;
-      margin-right: 20px;
+      margin: 20px;
       flex-direction: column;
       display: flex;
       border: 1px outset black;
@@ -1146,13 +1152,13 @@ footer {
       padding: 10px;
       font-family: 'Berlin Sans FB Demi', 'Stencil';
    }
-   .list_home li{
+   .list li{
       color: black;
-      margin-left: 2%;
+      margin-left: 5%;
       text-align: left;
       font-size: 17px;
    }
-   .list_home ul{
+   .list ul{
       margin-left: 3%;
    }
 

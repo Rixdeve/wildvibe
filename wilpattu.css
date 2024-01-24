@@ -68,6 +68,7 @@
            transition: all 0.3s ease 0s;
            align-items: center;
            width: 130px;
+           height: 50px;
        }
            button:hover{
               background-color: darkblue;
