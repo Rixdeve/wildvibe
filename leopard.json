@@ -1,0 +1,66 @@
+{
+  "leopardslide": {
+    "title": "Hunt Big Cats"
+  },
+  "leopardsmain": {
+    "title": "Leopards Safaries can be Arranged in Below Areas"
+  },
+  "leopards_areas": [
+    {
+      "title": "Leopards in Udawalawa",
+      "description": "Udawalawe National Park in Sri Lanka is renowned for its population of leopards. The park's diverse ecosystem provides an ideal habitat for these majestic big cats. Visitors to Udawalawe often have the opportunity to witness leopards in their natural environment, showcasing the park's importance in leopard conservation. The presence of leopards in Udawalawe underscores the significance of preserving and protecting such habitats to ensure the continued existence of these iconic species.",
+      "image": "udawalawaleop.jpg"
+    },
+    {
+      "title": "Leopards in Hortain Plains",
+      "description": "The Horton Plains National Park in Sri Lanka is another significant area where leopards are found. This high-altitude grassland and cloud forest habitat provides a unique environment for wildlife, including leopards. The leopards in Horton Plains are part of the diverse array of fauna in the park, which also boasts other notable species and scenic landscapes. Observing leopards in their natural habitat in Horton Plains highlights the importance of conserving this area to sustain the delicate balance of its ecosystem and ensure the survival of these remarkable big cats.",
+      "image": "hortainplainsleop.jpg"
+    },
+    {
+      "title": "Leopards in Knuckles Mountain Range",
+      "description": "The Knuckles Mountain Range in Sri Lanka is known for its biodiversity, and it is home to various wildlife species, including leopards. The elusive leopards in the Knuckles Range are an integral part of the region's rich ecosystem. Conservation efforts in this area are crucial to maintaining the habitat and ensuring the survival of leopards and other wildlife species. Preserving the Knuckles as a protected area not only safeguards the leopards but also contributes to the overall ecological balance of this unique mountainous landscape.",
+      "image": "knucklee.jpg"
+    }
+  ],
+  "leopardthreats": {
+    "title": "Threats For Our 'Big Cats'",
+    "threats": [
+      {
+        "type": "Deforestation",
+        "description": "Deforestation in the rainforests of Sri Lanka is influenced by a multitude of factors. The encroachment of land for agricultural purposes, particularly for the establishment of tea and rubber plantations, presents a significant peril to the natural ecosystem. Furthermore, the detrimental practice of illegal logging, aimed at procuring valuable timber and fuelwood, serves to expedite the process of habitat destruction. Urbanisation and the implementation of infrastructure development projects can result in the fragmentation of habitats and the disturbance of wildlife corridors.",
+        "consequences": "Deforestation in Sri Lanka poses a serious threat to leopards. Habitat loss and fragmentation lead to reduced living space, disrupt natural behaviors, and increase the risk of inbreeding. Competition for scarce prey affects nutrition, reproduction, and overall health, jeopardizing their survival. Proximity to human settlements escalates conflicts, endangering both humans and leopards. Poaching risk rises with shrinking habitats, driven by illegal wildlife trade demand. Stress from disrupted behaviors impacts reproduction and community sustainability. Roads associated with deforestation introduce additional risks. Comprehensive conservation efforts, including habitat preservation and community engagement, are crucial for leopard and human coexistence in Sri Lanka."
+      },
+      {
+        "type": "Human-Wildlife Conflict",
+        "description": "As leopard habitats shrink, these big cats may come into contact with human settlements. This can result in conflicts, especially if leopards prey on domestic animals. Retaliatory killings by farmers protecting their livestock can occur, posing a direct threat to leopard populations.",
+        "consequences": "In Sri Lanka, human-wildlife conflict involving leopards presents specific challenges. The consequences of such conflicts extend to the economic fabric of communities heavily dependent on agriculture and livestock. Retaliatory killings of leopards due to attacks on domestic animals contribute to the decline of leopard populations, a matter of concern for the country's biodiversity. Instances of human injuries or fatalities intensify fear and resentment, creating a complex scenario. Furthermore, the displacement of leopards may impact the island nation's unique ecosystems. In addressing these issues, Sri Lanka faces the dual challenge of conserving its rich biodiversity and ensuring the well-being of communities. Effective strategies must consider the socio-economic context, involve local communities, and employ sustainable conservation measures to mitigate the human-wildlife conflict in Sri Lanka."
+      }
+    ],
+    "conservation_methods": {
+      "Deforestation": [
+        "Habitat Restoration and Reforestation",
+        "Protected Areas and National Parks",
+        "Community-Based Conservation",
+        "Anti-Poaching Measures",
+        "Research and Monitoring",
+        "Education and Awareness Programs",
+        "Government Policies and Regulations"
+      ],
+      "Human-Wildlife Conflict": [
+        "Livestock Protection Measures",
+        "Early Warning Systems",
+        "Compensation Schemes",
+        "Habitat Management",
+        "Research and Monitoring",
+        "International Collaboration"
+      ]
+    }
+  },
+  "leopard_conservation": {
+    "title": "Lets Stand-up For Leopards",
+    "description": "To save our leopards, we must raise awareness, protect their habitats, and engage in sustainable practices. Measures like livestock protection, early warnings, and fair compensation contribute to coexistence. Strengthening legal frameworks and international collaboration are crucial. Together, these efforts can ensure the survival of leopards and maintain a balanced ecosystem.",
+    "source": "https://www.dilmahconservation.org/about-animals/mammals--f9925cffabdd604dfab150bbcb49f2a8/srilankanleopard--d8dbbf72a303e551afe0fd6c44d31a6f.html",
+    "source_description": "Click to see what 'dilmahconservation' does to save our Leopards.",
+    "image": "dilmahconserve.jpg"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "national_parks": {
+    "Maduruoya": {
+      "name": "Maduru Oya National Park",
+      "description": "Maduru Oya National Park is one of the National Parks of Sri Lanka. It was designated as a National Park on 9th November 1983. It was established under the Mahaweli development project and also acts as a catchment of the Maduru Oya Reservoir. It is 58,849 hectares in content is located in the dry zone and 314 km from Colombo and works as a sanctuary for wildlife.",
+      "image": "maduruoya2.webp",
+      "location_url": "https://www.google.com/maps?q=7.263702600000001,81.23397229999999"
+    },
+    "Wasgamuwa": {
+      "name": "Wasgamuwa National Park",
+      "description": "Nestled in the central province of Sri Lanka, Wasgamuwa National Park is a biodiverse haven that beckons wildlife enthusiasts and nature lovers alike. Renowned for its annual Elephant Gathering, the park hosts one of the largest congregations of wild elephants during the dry season. Beyond elephants, the park boasts a rich variety of wildlife, including leopards, deer, and over 140 species of birds.",
+      "image": "wasgamuwa2.jpg",
+      "location_url": "https://www.google.com/maps?q=7.7530956,80.8295219"
+    },
+    "Udawalawa": {
+      "name": "Udawalawa National Park",
+      "description": "Udawalawe National Park, in southern Sri Lanka, is renowned for its diverse wildlife, notably its robust elephant population. The park's open grasslands and Udawalawe Reservoir create an ideal habitat for various species, making it a hotspot for wildlife enthusiasts. The Elephant Transit Home contributes to vital elephant conservation efforts. Guided safaris offer an immersive experience, providing insights into the park's ecology and ongoing conservation initiatives.",
+      "image": "udawalawa2.jpg",
+      "location_url": "https://www.google.com/maps?q=6.420653718158897,79.79577452602912"
+    },
+    "Hortainplains": {
+      "name": "Horton Plains National Park",
+      "description": "Horton Plains National Park, located in Sri Lanka's central highlands, is renowned for its scenic plateau, highlighted by the iconic 'World's End' cliff offering stunning panoramic views. The park is a biodiversity hotspot, home to unique flora and fauna, including sambar deer and leopards. Baker's Falls adds to its charm, while challenging hiking trails provide an immersive experience.",
+      "image": "hortainplains3.jpg",
+      "location_url": "https://www.google.com/maps?q=6.80944599318806,80.79975837475597"
+    }
+  },
+  "wildlife_summary": [
+    {
+      "location": "Udawalawa",
+      "wildlife": "Elephant",
+      "interesting_facts": "These Elephants are known for their highly developed communication skills and strong social bonds."
+    },
+    {
+      "location": "Maduruoya",
+      "wildlife": "Painted Stork",
+      "interesting_facts": "These large birds wade through shallow waters, using a distinctive bill-sweeping technique to catch fish and other prey."
+    },
+    {
+      "location": "Hortainplains",
+      "wildlife": "Sambar deer",
+      "interesting_facts": "During the rutting season, male Sambar deer emit a series of loud and resonant bellows to attract females and establish their presence."
+    }
+  ],
+  "footer": "Explore the incredible biodiversity in these diverse ecosystems and appreciate the unique characteristics of Sri Lankan animals."
+}
