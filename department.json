@@ -1,90 +1,45 @@
 {
-  "dep_cont": {
-    "dephead2": {
-      "h2": "The Department of Wildlife Conservation (DWC)"
+  "department_info": {
+    "name": "The Department of Wildlife Conservation (DWC)",
+    "description": "The Department of Wildlife Conservation (DWC) is the principal government institution responsible for the protection of wildlife resources of the country, over its entire land and sea territories. DWC also bears the legal authority to establish and manage the network of Wildlife Protected Areas (WLPAs) of the country, which at present exceeds a total area of 8500km2; 14% of Sri Lanka's land surface.",
+    "logo": "Wildlife.jpg"
+  },
+  "national_parks": [
+    {
+      "name": "Maduru Oya National Park",
+      "description": "Maduru Oya National Park is one of the National Parks of Sri Lanka. It was designated as a National Park on 9th November 1983. It was established under the Mahaweli development project and also acts as a catchment of the Maduru Oya Reservoir. It is 58,849 hectares in content is located in the dry zone and 314 km from Colombo and works as a sanctuary for wildlife.",
+      "image": "maduruoya.jpg",
+      "link": "introduction.html#maduruoya"
     },
-    "dep_intr": {
-      "depimg1": {
-        "img": {
-          "src": "Wildlife.jpg",
-          "alt": "DWC Logo"
-        }
-      },
-      "deppara2": {
-        "p": "The Department of Wildlife Conservation (DWC) is the principle government institution responsible for the protection of wildlife resources of the country, over its entire land and sea territories. DWC also bears the legal authority to establish and manage the network of Wildlife Protected Areas (WLPAs) of the country, which at present exceeds a total area of 8500km2; 14% of Sri Lanka's land surface."
-      }
+    {
+      "name": "Wasgamuwa National Park",
+      "description": "Nestled in the central province of Sri Lanka, Wasgamuwa National Park is a biodiverse haven that beckons wildlife enthusiasts and nature lovers alike. Renowned for its annual Elephant Gathering, the park hosts one of the largest congregations of wild elephants during the dry season. Beyond elephants, the park boasts a rich variety of wildlife, including leopards, deer, and over 140 species of birds.",
+      "image": "wasgamuwa.jpg",
+      "link": "introduction.html#wasgamuwa"
+    },
+    {
+      "name": "Yala National Park",
+      "image": "yala.jpg"
+    },
+    {
+      "name": "Udawalawe National Park",
+      "description": "Udawalawe National Park, in southern Sri Lanka, is renowned for its diverse wildlife, notably its robust elephant population. The park's open grasslands and Udawalawe Reservoir create an ideal habitat for various species, making it a hotspot for wildlife enthusiasts. The Elephant Transit Home contributes to vital elephant conservation efforts.",
+      "image": "udawalawa.jpg",
+      "link": "introduction.html#udawalawa"
+    },
+    {
+      "name": "Wilpattu National Park",
+      "image": "wilpattu.jpg"
+    },
+    {
+      "name": "Horton Plains National Park",
+      "description": "Horton Plains National Park, located in Sri Lanka's central highlands, is renowned for its scenic plateau, highlighted by the iconic 'World's End' cliff offering stunning panoramic views. The park is a biodiversity hotspot, home to unique flora and fauna, including sambar deer and leopards.",
+      "image": "hortonplains.jpg",
+      "link": "introduction.html#hortainplains"
     }
-  },
-  "depcontainer2": {
-    "depgallery": {
-      "content": [
-        {
-          "a": {
-            "href": "introduction.html#maduruoya",
-            "img": {
-              "src": "maduruoya.jpg",
-              "alt": "Maduru Oya National Park"
-            }
-          }
-        },
-        {
-          "a": {
-            "href": "introduction.html#wasgamuwa",
-            "img": {
-              "src": "wasgamuwa.jpg",
-              "alt": "Wasgamuwa National Park"
-            }
-          }
-        },
-        {
-          "content": {
-            "img": {
-              "src": "yala.jpg",
-              "alt": "Yala National Park"
-            }
-          }
-        },
-        {
-          "a": {
-            "href": "introduction.html#udawalawa",
-            "img": {
-              "src": "udawalawa.jpg",
-              "alt": "Udawalawe National Park"
-            }
-          }
-        },
-        {
-          "content": {
-            "img": {
-              "src": "wilpattu.jpg",
-              "alt": "Wilpattu National Park"
-            }
-          }
-        },
-        {
-          "a": {
-            "href": "introduction.html#hortainplains",
-            "img": {
-              "src": "hortonplains.jpg",
-              "alt": "HortonPlains National Park"
-            }
-          }
-        }
-      ]
-    }
-  },
-  "depmapbox": {
-    "h2": "Department Of Wildlife Srilanka",
-    "iframe": {
-      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9457472898553!2d79.91723077475682!3d6.89709269310208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1702804727448!5m2!1sen!2slk",
-      "width": "600",
-      "height": "450",
-      "style": "border:0;",
-      "allowfullscreen": "",
-      "loading": "lazy",
-      "referrerpolicy": "no-referrer-when-downgrade"
-    }
+  ],
+  "map_location": {
+    "title": "Department Of Wildlife Srilanka",
+    "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9457472898553!2d79.91723077475682!3d6.89709269310208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1702804727448!5m2!1sen!2slk"
   }
 }
-
-  
