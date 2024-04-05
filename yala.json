@@ -29,21 +29,19 @@
       "Best_Time": {
         "Name": "What is the best time to go to Yala National Park?",
         "Months": {
-          "May_and_June": "It’s the dry season to the park and there are less tourists. You will be able to observer wildlife in peace.",
-          "July_and_August": "Still the dry season to the park and sightings are very good but the park is crowded during to European summer holiday.",
-          "September_and_October": "The whole September Park remains closed for rejuvenation up to 15th October the last two weeks of October is very good to visit just before the rains.",
-          "November": "Less crowd and good sightings but there is a chance of rain.",
-          "December_to_March": "Most crowded time of the year but the sightings are very good. There are chance of rain in first two weeks of December.",
-          "April": "Very good for sightings but you should avoid the Sinhala new year period.",
-          "November_to_February": "North East monsoon starts from November to February and you can find most of migratory birds this time."
+          "May_and_June": "<b>May and June</b> - It’s the dry season to the park and there are less tourists. You will be able to observer wildlife in peace.",
+          "July_and_August": "<b>July and August</b> - Still the dry season to the park and sightings are very good but the park is crowded during to European summer holiday.",
+          "September_and_October": "<b> and October</b> - The whole September Park remains closed for rejuvenation up to 15th October the last two weeks of October is very good to visit just before the rains.",
+          "November": "<b>November</b> - Less crowd and good sightings but there is a chance of rain.",
+          "December_to_March": "<b>December to March</b> - Most crowded time of the year but the sightings are very good. There are chance of rain in first two weeks of December.",
+          "April": "<b>April</b> - Very good for sightings but you should avoid the Sinhala new year period.",
+          "November_to_February": "**North East monsoon starts from <b>November to February</b> and you can find most of migratory birds this time."
         }
       },
       "Opening_Hours": {
         "Name": "What is the opening hours Yala National Park?",
         "Hours": {
-          "Morning": "Jeeps are allowed to enter Yala National Park at 6 AM in the morning.",
-          "Afternoon": "Jeeps are allowed to enter Yala National Park at 2 PM in the afternoon.",
-          "Duration": "A Yala tour takes about 4 hours."
+          "Morning": "Jeeps are allowed to enter Yala National Park at 6 AM in the morning.Jeeps are allowed to enter Yala National Park at 2 PM in the afternoon.A Yala tour takes about 4 hours."
         }
       }
     }

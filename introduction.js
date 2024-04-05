@@ -26,3 +26,15 @@ document.getElementById("horhead").innerHTML = data.national_parks.Hortainplains
 document.getElementById("horpara").innerHTML = data.national_parks.Hortainplains.description;
 document.getElementById("horpara").innerHTML = data.national_parks.Hortainplains.description;
 
+// Map Fetching       
+function renderIframeFromJSON(data) {        
+    const iframeURL = data.section2.locations.flex_container.flex_item1.iframe.src;         
+    const iframeWidth = data.section2.locations.flex_container.flex_item1.iframe.width;         
+    const iframeHeight = data.section2.locations.flex_container.flex_item1.iframe.height;          
+    const iframe = document.createElement("iframe");          
+    iframe.src = iframeURL;
+    iframe.width = iframeWidth;
+    iframe.height = iframeHeight;
+    iframe.style.padding = "0";
+    document.getElementById("hortonLoc").appendChild(iframe);  }
+    renderIframeFromJSON(data);
