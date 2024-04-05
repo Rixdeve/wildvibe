@@ -32,11 +32,8 @@
            width: auto;
            color: aliceblue;
            font-family: 'Bradley Hand ITC';
-           margin-right: 19%;
            flex: 2;       }
-        .menu {
-           flex: 1;
-        }
+  
        .navi_menu{
            list-style: none;
            width: 100%;
@@ -463,11 +460,34 @@
      width: 100%;
      box-sizing: border-box;
      }
-     .footmenu {
-         display: inline;
-         margin:30px 0px;
+     .newsletter-container {
+        display: ruby-text;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .newsletter-container p {
+     color: white;
+     font-size: 16px;
+    }
 
-     }
+    .newsletter-container button{
+        /* padding: 9px 9px 10px 10px; */
+        background-color: rgb(34, 162, 49);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        align-items: center;
+        width: 90px;
+        height: 40px;
+        font-size: 20px;     }
+       .newsletter-container button :hover{
+           background-color: darkblue;
+        }
+        .newsletter-container button:active{
+           background-color: rgb(139, 51, 0);
+           scale: 0.95;
+        }
      .footmenu ul {
          display: flex;
          justify-content: center;
