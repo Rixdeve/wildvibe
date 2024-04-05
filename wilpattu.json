@@ -36,19 +36,21 @@
     "wilpattu_time": {
       "heading": "What is the best time to go to Wilpattu National Park?",
       "time_periods": {
-        "May_to_September": "This period is considered the peak dry season, with lower rainfall. The vegetation is drier, making it easier to spot wildlife around water sources. Animal sightings, especially leopards, might be more frequent during these months.",
-        "July_and_August": "Still the dry season to the park and sightings are very good but the park is crowded during to European summer holiday.",
-        "October": "Towards the end of the dry season, October may still have favorable conditions for wildlife viewing, though there might be some rainfall as the wet season approaches.",
-        "November_to_January": "This period marks the onset of the wet season. While there may be increased rainfall, the landscape becomes lush and green. The vegetation might make it slightly more challenging to spot wildlife, but the park is less crowded.",
-        "February_to_April": "These months are transitional, with decreasing rainfall. Wildlife activity could be picking up as the dry season approaches, and the weather is generally pleasant."
+        "May_to_September": "<b>May to September</b> - This period is considered the peak dry season, with lower rainfall. The vegetation is drier, making it easier to spot wildlife around water sources. Animal sightings, especially leopards, might be more frequent during these months.",
+        "July_and_August": "<b>July and August</b> - Still the dry season to the park and sightings are very good but the park is crowded during to European summer holiday.",
+        "October": "<b>October</b> -  Towards the end of the dry season, October may still have favorable conditions for wildlife viewing, though there might be some rainfall as the wet season approaches.",
+        "November_to_January": "<b>November to January</b> - This period marks the onset of the wet season. While there may be increased rainfall, the landscape becomes lush and green. The vegetation might make it slightly more challenging to spot wildlife, but the park is less crowded.",
+        "February_to_April": "<b>February to April</b> - These months are transitional, with decreasing rainfall. Wildlife activity could be picking up as the dry season approaches, and the weather is generally pleasant."
       },
       "note": "If you prioritize wildlife sightings, the dry season from May to September is often recommended. However, visiting during the transitional months could offer a balance between favorable weather and wildlife activity. Keep in mind that exact weather conditions can vary each year."
     },
     "wilpattu_open": {
       "heading": "What is the opening hours Yala National Park?",
+      
       "hours": {
-        "Morning_Safari": "Usually, the park opens early in the morning, around 6:00 AM, for the morning safari.",
-        "Evening_Safari": "The park typically closes for the afternoon and reopens for the evening safari around 2:00 PM or 3:00 PM, closing at dusk."
+        "description": "The opening hours of Wilpattu National Park in Sri Lanka can vary, and it's advisable to check for the most up-to-date information before planning your visit. Generally, the park is open during daylight hours for safari activities. The typical schedule is from early morning until early evening.<br>Here are approximate timings, but it's essential to verify with the relevant authorities or park management:<br>",
+        "Morning_Safari": "<b>Morning Safari:</b> &nbsp Usually, the park opens early in the morning, around 6:00 AM, for the morning safari.",
+        "Evening_Safari": "<b>Evening Safari:</b> &nbsp park typically closes for the afternoon and reopens for the evening safari around 2:00 PM or 3:00 PM, closing at dusk."
       }
     }
   }
