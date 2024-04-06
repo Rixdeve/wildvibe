@@ -1,25 +1,41 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('newsletterForm');
+// subscribe.js
 
-    form.addEventListener('submit', function(event) {
+document.addEventListener('DOMContentLoaded', function () {
+    const newsletterForm = document.getElementById('newsletterForm');
+    const emailInput = document.getElementById('emailInput');
+    const subscribedEmailsContainer = document.getElementById('subscribedEmailsContainer');
+
+    newsletterForm.addEventListener('submit', function (event) { 
+        console.log('Form submitted');
+
         event.preventDefault();
-
-        const emailInput = document.getElementById('emailInput');
         const email = emailInput.value;
-
         if (email.trim() !== '') {
-            // Save email to local storage
-            saveEmailToLocalStorage(email);
-            alert('Thank you for Subscribing WildVibe!');
-            form.reset();
-        } else {
-            alert('Please enter a valid email address.');
+            let subscribedEmails = localStorage.getItem('subscribedEmails');
+            if (!subscribedEmails) {
+                subscribedEmails = [];
+            } else {
+                subscribedEmails = JSON.parse(subscribedEmails);
+            }
+            subscribedEmails.push(email);
+            localStorage.setItem('subscribedEmails', JSON.stringify(subscribedEmails));
+
+            displaySubscribedEmails(subscribedEmails);
         }
+        emailInput.value = '';
     });
 
-    function saveEmailToLocalStorage(email) {
-        let existingEmails = JSON.parse(localStorage.getItem('subscribedEmails')) || [];
-        existingEmails.push(email);
-        localStorage.setItem('subscribedEmails', JSON.stringify(existingEmails));
+    function displaySubscribedEmails(emails) {
+        console.log('Displaying subscribed emails:', emails);
+        subscribedEmailsContainer.innerHTML = ''; 
+        emails.forEach(function (email) {
+            const emailItem = document.createElement('div');
+            emailItem.textContent = email;
+            subscribedEmailsContainer.appendChild(emailItem);
+        });
     }
+
+    const subscribedEmails = JSON.parse(localStorage.getItem('subscribedEmails')) || [];
+    displaySubscribedEmails(subscribedEmails);
 });
+

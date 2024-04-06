@@ -6,22 +6,31 @@
     <title>Wildvibe | Dashboard</title>
     <link rel="icon" type="image/x-icon" href="wildvibe elephant.png">
     <link rel="stylesheet" href="dashboard.css">
+
 </head>
 <body>
     <div class="dash_nav"> <!-- Navigation -->
         <header>
             <div class="logo">
                 <a href="index.html">
-                    <img src="Wild_Vibe-removebg-preview.png" alt="Wild Vibe Logo">
-                </a>
+                    <img src="Wild_Vibe-removebg-preview.png" alt="Wild Vibe Logo"></a></div>
+                    <div class="menu">
+                        <nav>
+                          <ul class="navi_menu">
+                    <li><a class="logout" href="index.html"><button>Logout</button></a></li>
+                </ul>
+            </nav>
+            </div>                        
+    
             </div>    
         </header>
-    </div>
+
     <div class="welcomeTxt">
         <p id="logUser" class="logUser"></p>
     </div>
-    
-        <table>
+
+    <!-- <button id="openPopupBtn">Open Popup</button> -->
+  <table>
           <thead>
               <tr>
                   <th>Page</th>
@@ -33,39 +42,39 @@
           <tbody>
               <tr>
                   <td><b>Home Page</b></td>
-                  <td><li><a class="edithome" href="index.html"><div class="edt"><button>Edit</button></div></a></li></td>
-                  <td><li><a class="delhome" href="index.html"><div class="del"><button>Delete</button></div></a></li></td>
+                  <td><li><a class="edithome"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
+                  <td><li><a class="delhome"><div class="del"><button>Delete</button></div></a></li></td>
                   <td><li><a class="viewhome" href="index.html"><button>View</button></a></li></td>
                   
 
               </tr>
               <tr>
                 <td><b>Introduction Page</b></td>
-                <td><li><a class="editint" href="introduction.html"><div class="edt"><button>Edit</button></div></a></li></td>
+                <td><li><a class="editint"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
                 <td><li><a class="delint" href="introduction.html"><div class="del"><button>Delete</button></div></a></li></td>
                 <td><li><a class="viewint" href="introduction.html"><button>View</button></a></li></td>
-            </tr>
+            </tr>   
             <tr>
               <td><b>Department Page</b></td>
-              <td><li><a class="editdep" href="department.html"><div class="edt"><button>Edit</button></div></a></li></td>
+              <td><li><a class="editdep"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
               <td><li><a class="deldep" href="department.html"><div class="del"><button>Delete</button></div></a></li></td>
               <td><li><a class="viewdep" href="department.html"><button>View</button></a></li></td>
           </tr>
           <tr>
             <td><b>Animal Page</b></td>
-            <td><li><a class="editani" href="animal.html"><div class="edt"><button>Edit</button></div></a></li></td>
+            <td><li><a class="editani"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
             <td><li><a class="delani" href="animal.html"><div class="del"><button>Delete</button></div></a></li></td>
             <td><li><a class="viewani" href="animal.html"><button>View</button></a></li></td>
         </tr>
         <tr>
           <td><b>Yala Page</b></td>
-          <td><li><a class="edityala" href="yala.html"><div class="edt"><button>Edit</button></div></a></li></td>
+          <td><li><a class="edityala"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
           <td><li><a class="delyala" href="yala.html"><div class="del"><button>Delete</button></div></a></li></td>
           <td><li><a class="viewyala" href="yala.html"><button>View</button></a></li></td>
       </tr>
       <tr>
         <td><b>Wilpattu Page</b></td>
-        <td><li><a class="edithome" href="index.html"><div class="edt"><button>Edit</button></div></a></li></td>
+        <td><li><a class="edithome" href="#"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
         <td><li><a class="delhome" href="index.html"><div class="del"><button>Delete</button></div></a></li></td>
         <td><li><a class="viewhome" href="index.html"><button>View</button></a></li></td>
     </tr>
@@ -74,7 +83,12 @@
 
       </table>
 
+      <div id="subscribedEmailsContainer"></div>
+
+      
     <script src="dashboard.js"></script>
     <script src="login.js"></script>
+    <script src="subscribe.js"></script>
+
 </body>
 </html>
