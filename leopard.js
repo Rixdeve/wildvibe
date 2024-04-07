@@ -10,7 +10,7 @@ fetch("leopard.json")
 
 const data = JSON.parse(localStorage.getItem("LeopardData"));
 
-//
+
 document.getElementById("leopardHero").innerHTML = data.leopardslide.title;
 document.getElementById("leopardHead").innerHTML = data.leopardsmain.title;
 document.getElementById("udaHead").innerHTML = data.leopards_areas[0].title;

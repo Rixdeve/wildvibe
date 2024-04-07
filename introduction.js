@@ -10,7 +10,6 @@ fetch("introduction.json")
 
 const data = JSON.parse(localStorage.getItem("introData"));
 
-//
 document.getElementById("maduruhead").innerHTML = data.national_parks.Maduruoya.name;
 document.getElementById("madurup").innerHTML = data.national_parks.Maduruoya.description;
 document.getElementById("maduruLoc").innerHTML = data.national_parks.Maduruoya.location_url;
@@ -22,8 +21,7 @@ document.getElementById("udapara").innerHTML = data.national_parks.Udawalawa.des
 document.getElementById("horhead").innerHTML = data.national_parks.Hortainplains.name;
 document.getElementById("horpara").innerHTML = data.national_parks.Hortainplains.description;
 document.getElementById("horpara").innerHTML = data.national_parks.Hortainplains.description;
-
-// Map Fetching       
+       
 function renderIframeFromJSON(data) {        
     const iframeURL = data.section2.locations.flex_container.flex_item1.iframe.src;         
     const iframeWidth = data.section2.locations.flex_container.flex_item1.iframe.width;         

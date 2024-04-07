@@ -14,13 +14,10 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
           alert("Login successful! Welcome, " + username);
           localStorage.setItem('currentUser', JSON.stringify(user));
           
-
-          // Redirect to dashboard
           window.location.href = 'dashboard.html';
           // document.getElementById("logUser").textContent = ("Welcome back " + (username));
           // alert("Welcome back " + (username));
         } else {
-          // Authentication failed
           document.getElementById("error-message").textContent = "Invalid username or password.";
         }
       })

@@ -10,7 +10,6 @@ fetch("yala.json")
 
 const data = JSON.parse(localStorage.getItem("yalaData"));
 
-//
 document.getElementById("yalaMain").innerHTML = data.Yala_National_Park.Basic_Info.Name;
 document.getElementById("yalaPara").innerHTML = data.Yala_National_Park.Basic_Info.Description;
 document.getElementById("mystHead").innerHTML = data.Yala_National_Park.Mystery.Name;
