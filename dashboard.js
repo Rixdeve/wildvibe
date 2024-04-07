@@ -107,7 +107,9 @@ document.querySelectorAll('.openPopupBtn').forEach(function(button) {
     button.addEventListener('click', openPopup);
 });
 
-
+function deleteUser() {
+    localStorage.removeItem("currentUser");
+  }
 function deleteHome() {
     localStorage.removeItem("homeData");
   }
@@ -129,3 +131,14 @@ function deleteYala() {
 function deleteWilpattu() {
     localStorage.removeItem("wilpattuData");
   }
+
+
+  if (localStorage.getItem("currentUser")) {
+    const getPopup = `<button class="openPopup">Edit</button>`;
+    const container = document.querySelector(".openPopupContainer");
+    container.innerHTML = getPopup;
+    
+    const openPopupButton = document.querySelector(".openPopup");
+    openPopupButton.addEventListener("click", openPopup);
+}
+

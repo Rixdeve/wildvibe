@@ -10,7 +10,7 @@ fetch("department.json")
 
 const data = JSON.parse(localStorage.getItem("departmentData"));
 
-//
+
 document.getElementById("depHead").innerHTML = data.department_info.name;
 document.getElementById("depPara").innerHTML = data.department_info.description;
 document.getElementById("depHead").innerHTML = data.department_info.name;
