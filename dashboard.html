@@ -25,11 +25,6 @@
             </div>    
         </header>
 
-    <div class="welcomeTxt">
-        <p id="logUser" class="logUser"></p>
-    </div>
-
-    <!-- <button id="openPopupBtn">Open Popup</button> -->
   <table>
           <thead>
               <tr>
@@ -43,7 +38,7 @@
               <tr>
                   <td><b>Home Page</b></td>
                   <td><li><a class="edithome"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
-                  <td><li><a class="delhome"><div class="del"><button>Delete</button></div></a></li></td>
+                  <td><li><a class="delhome"><div class="del"><button onclick="deleteHome()">Delete</button></div></a></li></td>
                   <td><li><a class="viewhome" href="index.html"><button>View</button></a></li></td>
                   
 
@@ -51,33 +46,40 @@
               <tr>
                 <td><b>Introduction Page</b></td>
                 <td><li><a class="editint"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
-                <td><li><a class="delint" href="introduction.html"><div class="del"><button>Delete</button></div></a></li></td>
+                <td><li><a class="delint"><div class="del"><button onclick="deleteIntro()">Delete</button></div></a></li></td>
                 <td><li><a class="viewint" href="introduction.html"><button>View</button></a></li></td>
             </tr>   
             <tr>
               <td><b>Department Page</b></td>
               <td><li><a class="editdep"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
-              <td><li><a class="deldep" href="department.html"><div class="del"><button>Delete</button></div></a></li></td>
+              <td><li><a class="deldep"><div class="del"><button onclick="deleteDepart()">Delete</button></div></a></li></td>
               <td><li><a class="viewdep" href="department.html"><button>View</button></a></li></td>
           </tr>
-          <tr>
+        <tr>
+            <td><b>Leopards Page</b></td>
+            <td><li><a class="editleop" href="#"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
+            <td><li><a class="delhome"><div class="del"><button onclick="deleteLeopard()">Delete</button></div></a></li></td>
+            <td><li><a class="viewhome" href="leopard.html"><button>View</button></a></li></td>
+        </tr>
+      <tr>
             <td><b>Animal Page</b></td>
             <td><li><a class="editani"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
-            <td><li><a class="delani" href="animal.html"><div class="del"><button>Delete</button></div></a></li></td>
+            <td><li><a class="delani"><div class="del"><button onclick="deleteAnim()">Delete</button></div></a></li></td>
             <td><li><a class="viewani" href="animal.html"><button>View</button></a></li></td>
         </tr>
         <tr>
           <td><b>Yala Page</b></td>
           <td><li><a class="edityala"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
-          <td><li><a class="delyala" href="yala.html"><div class="del"><button>Delete</button></div></a></li></td>
+          <td><li><a class="delyala" ><div class="del"><button onclick="deleteYala()">Delete</button></div></a></li></td>
           <td><li><a class="viewyala" href="yala.html"><button>View</button></a></li></td>
       </tr>
       <tr>
         <td><b>Wilpattu Page</b></td>
-        <td><li><a class="edithome" href="#"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
-        <td><li><a class="delhome" href="index.html"><div class="del"><button>Delete</button></div></a></li></td>
-        <td><li><a class="viewhome" href="index.html"><button>View</button></a></li></td>
+        <td><li><a class="edithome"><div class="edt"><button class="openPopupBtn">Edit</button></div></a></li></td>
+        <td><li><a class="delhome"><div class="del"><button onclick="deleteWilpattu()">Delete</button></div></a></li></td>
+        <td><li><a class="viewhome" href="wilpattu.html"><button>View</button></a></li></td>
     </tr>
+
 
           </tbody>
 

@@ -1,5 +1,3 @@
-// subscribe.js
-
 document.addEventListener('DOMContentLoaded', function () {
     const newsletterForm = document.getElementById('newsletterForm');
     const emailInput = document.getElementById('emailInput');

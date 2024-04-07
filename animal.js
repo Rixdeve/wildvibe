@@ -1,11 +1,8 @@
-//idex.html page
-//fetch JSON data
 fetch("animal.json")
     .then((response) => response.json())
     .then((data) => {
-        //local storage
-        // document.getElementById("maini").innerHTML= data.main.Intro;
-        localStorage.setItem("animalData", JSON.stringify(data));
+        if (!localStorage.getItem("animalData")){
+        localStorage.setItem("animalData", JSON.stringify(data));}
     })
     .catch((error) => {
         console.error("Error", error);

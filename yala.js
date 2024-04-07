@@ -1,11 +1,8 @@
-//idex.html page
-//fetch JSON data
 fetch("yala.json")
     .then((response) => response.json())
     .then((data) => {
-        //local storage
-        // document.getElementById("maini").innerHTML= data.main.Intro;
-        localStorage.setItem("yalaData", JSON.stringify(data));
+        if (!localStorage.getItem("yalaData")){
+        localStorage.setItem("yalaData", JSON.stringify(data));}
     })
     .catch((error) => {
         console.error("Error", error);

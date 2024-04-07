@@ -1,23 +1,3 @@
-// let currentUser = localStorage.getItem("currentUser");
-
-// // Check if currentUser exists
-// if (currentUser) {
-//     document.getElementById("logUser").textContent = "Welcome back " + currentUser;
-// } else {
-//     console.log("No user found in local storage.");
-// }
-
-// const clearLocalStorageBtn = document.getElementsByClassName('del');
-
-// clearLocalStorageBtn.addEventListener('click', function() {
-
-//   localStorage.clear();
-    
-//   alert('Local storage cleared successfully!');
-// });
-
-
-
 function openPopup() {
     const popup = window.open('', 'popupWindow', 'width=700,height=500');
 
@@ -46,27 +26,106 @@ function openPopup() {
     popup.document.write('</body></html>');
 
 
-    // Attach event listener to the "Edit" button
-    popup.document.querySelectorAll('.edit-btn').forEach(function(button) {
-        button.addEventListener('click', function() {
-            // Replace this with your edit functionality
-            var pageContent = popup.document.querySelector('.page-content').value;
-            alert('Edit functionality goes here! Page content: ' + pageContent);
-        });
-    });
 
-    // Attach event listener to the "Close" button
+
     popup.document.querySelectorAll('.close-btn').forEach(function(button) {
         button.addEventListener('click', function() {
-            popup.close(); // Close the popup window
+            popup.close();
         });
     });
+
+
+
+    const selectButton = popup.document.getElementById("selectBtn");
+    if (selectButton)
+     selectButton.addEventListener("click", function (){
+        const selectPage = popup.document.querySelector(".page-select").value;
+        let content = popup.document.querySelector(".page-content");
+
+        if (selectPage == "home"){
+            content.value = localStorage.getItem('homeData');
+        }
+        if (selectPage == "introduction"){
+            content.value = localStorage.getItem('introData');
+        }
+        if (selectPage == "department"){
+            content.value = localStorage.getItem('departmentData');
+        }
+        if (selectPage == "animal"){
+            content.value = localStorage.getItem('animalData');
+        }
+        if (selectPage == "yala"){
+            content.value = localStorage.getItem('yalaData');
+        }
+        if (selectPage == "wilpattu"){
+            content.value = localStorage.getItem('wilpattuData');
+        }
+        if (selectPage == "leopards"){
+            content.value = localStorage.getItem('LeopardData');
+        }
+
+     })
+
+     const editButton = popup.document.getElementById("editBtn");
+
+     if (editButton){
+        editButton.addEventListener('click', function(){
+            const selectPage = popup.document.querySelector(".page-select").value;
+            const content = popup.document.querySelector(".page-content").value;
+
+            if (selectPage && content){
+                if(selectPage == "home"){
+                    localStorage.setItem("homeData", content);
+                }
+                if(selectPage == "introduction"){
+                    localStorage.setItem("introData", content);
+                }
+                if(selectPage == "department"){
+                    localStorage.setItem("departmentData", content);
+                }
+                if(selectPage == "animal"){
+                    localStorage.setItem("animalData", content);
+                }
+                if(selectPage == "yala"){
+                    localStorage.setItem("yalaData", content);
+                }
+                if(selectPage == "wilpattu"){
+                    localStorage.setItem("wilpattuData", content);
+                }
+                if(selectPage == "leopards"){
+                    localStorage.setItem("LeopardData", content);
+                }
+                
+            }
+        })
+     }
 }
 
-// Attach event listeners to all buttons with class "openPopupBtn"
+
+
 document.querySelectorAll('.openPopupBtn').forEach(function(button) {
     button.addEventListener('click', openPopup);
 });
 
 
-
+function deleteHome() {
+    localStorage.removeItem("homeData");
+  }
+function deleteIntro() {
+    localStorage.removeItem("introData");
+  }
+function deleteDepart() {
+    localStorage.removeItem("departmentData");
+  }
+function deleteLeopard() {
+    localStorage.removeItem("LeopardData");
+  }
+function deleteAnim() {
+    localStorage.removeItem("animalData");
+  }
+function deleteYala() {
+    localStorage.removeItem("yalaData");
+  }
+function deleteWilpattu() {
+    localStorage.removeItem("wilpattuData");
+  }
