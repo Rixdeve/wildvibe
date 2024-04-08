@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
             
             subscribedEmails.push(email);
             localStorage.setItem('subscribedEmails', JSON.stringify(subscribedEmails));
+            alert("You have Subscribed!")
         }
     });
 });
