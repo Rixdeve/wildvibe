@@ -1,5 +1,3 @@
-//idex.html page
-//fetch JSON data
 fetch("wilpattu.json")
     .then((response) => response.json())
     .then((data) => {
@@ -12,7 +10,6 @@ fetch("wilpattu.json")
 
 const data = JSON.parse(localStorage.getItem("wilpattuData"));
 
-//
 document.getElementById("wilHero").innerHTML = data.Wilpattu_Vibe.heading;
 document.getElementById("wilMain").innerHTML = data.wilpattuwa_basic.heading;
 document.getElementById("wilMain").innerHTML = data.wilpattuwa_basic.heading;
@@ -35,5 +32,3 @@ document.getElementById("openPara").innerHTML = data.wilpattu_open.hours.descrip
 document.getElementById("morning").innerHTML = data.wilpattu_open.hours.Morning_Safari;
 document.getElementById("evening").innerHTML = data.wilpattu_open.hours.Evening_Safari;
 
-
-wilPara

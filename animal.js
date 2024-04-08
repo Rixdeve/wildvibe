@@ -10,7 +10,6 @@ fetch("animal.json")
 
 const data = JSON.parse(localStorage.getItem("animalData"));
 
-//
 document.getElementById("eleHead").innerHTML = data.indigenous_animals[0].name;
 document.getElementById("elePara").innerHTML = data.indigenous_animals[0].description;
 document.getElementById("sloHead").innerHTML = data.indigenous_animals[1].name;

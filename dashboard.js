@@ -133,14 +133,7 @@ function deleteWilpattu() {
   }
 
 
-//   if (localStorage.getItem("currentUser")) {
-//     const getPopup = `<button class="openPopup">Edit</button>`;
-//     const container = document.querySelector(".openPopupContainer");
-//     container.innerHTML = getPopup;
-    
-//     const openPopupButton = document.querySelector(".openPopup");
-//     openPopupButton.addEventListener("click", openPopup);
-// }
+
 
 document.addEventListener('DOMContentLoaded', function () {
     const subscribedEmailsContainer = document.getElementById('subscribedEmailsContainer');
