@@ -8,18 +8,25 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
       .then(data => {
 
         let user = data.users.find(user => user.username === username && user.password === password);
+
         if (user) {
 
           document.getElementById("error-message").textContent = "";
           alert("Login successful! Welcome, " + username);
           localStorage.setItem('currentUser', JSON.stringify(user));
-          
-          window.location.href = 'dashboard.html';
+            if (user.role == "admin"){
+              window.location.href = "dashboard.html"
+            }
+            else {
+              window.location.href = 'index.html';
+            }
           // document.getElementById("logUser").textContent = ("Welcome back " + (username));
           // alert("Welcome back " + (username));
         } else {
           document.getElementById("error-message").textContent = "Invalid username or password.";
         }
+
+        
       })
       .catch(error => console.error('Error loading user data:', error));
   });
